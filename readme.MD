@@ -5,6 +5,9 @@ Simple Java Application with Database access. Application provides Rest APIs for
 
 Application is using H2 as the database. 
 
+A Person must exsist before adding address to Him.
+A Person can be deleted only after deleting Addresses assigned to him.
+
 ## To RUN
 
 Execute below from the Command line. Java 1.8 and Maven is necessary to run this application.

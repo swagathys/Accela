@@ -21,7 +21,7 @@ public class Address {
     private String state;
     @Column(name = "postalCode")
     private String postal_code;
-    @ManyToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "person_id")
     private Person person;
 }
